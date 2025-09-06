@@ -16,6 +16,7 @@ Both systems demonstrate popular collaborative filtering methods:
 
 Cosine similarity is used to measure closeness, and model accuracy is evaluated via **RMSE** and **MAE** metrics.
 
+![DEMO OUTPUT](out.png)
 ***
 
 ## 📊 Dataset — MovieLens
