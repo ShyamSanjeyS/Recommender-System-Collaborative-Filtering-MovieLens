@@ -1,5 +1,5 @@
 
-# 🎥 Movie Recommendation System — Collaborative Filtering
+#  Movie Recommendation System — Collaborative Filtering
 
 ## 📌 Overview
 
@@ -104,7 +104,7 @@ pip install streamlit pandas numpy scikit-learn matplotlib
 
 ***
 
-## ▶️ Usage
+##  Usage
 
 ### Command Line Script (`movie.py`)
 
@@ -173,25 +173,24 @@ MAE: 0.73
 
 ***
 
+
 ## 📚 Methodology
 
 ### User-Based Collaborative Filtering
-
 $$
 \hat{R}_{u,i} = \frac{\sum_{v \in similar(u)} sim(u,v) \cdot R_{v,i}}{\sum_{v \in similar(u)} |sim(u,v)|}
 $$
 
 ### Item-Based Collaborative Filtering
-
 $$
 \hat{R}_{u,i} = \frac{\sum_{j \in similar(i)} sim(i,j) \cdot R_{u,j}}{\sum_{j \in similar(i)} |sim(i,j)|}
 $$
 
 **Similarity: Cosine Similarity**
-
 $$
 sim(A,B) = \frac{A \cdot B}{||A|| \cdot ||B||}
 $$
+
 
 ***
 
