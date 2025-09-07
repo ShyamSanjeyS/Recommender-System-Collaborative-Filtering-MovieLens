@@ -173,6 +173,7 @@ MAE: 0.73
 - Dataset samples for exploration
 
 ***
+<<<<<<< HEAD
 
 
 ## 📚 Methodology
@@ -191,6 +192,18 @@ $$
 $$
 sim(A,B) = \frac{A \cdot B}{||A|| \cdot ||B||}
 $$
+=======
+## 📚 Methodology
+
+### User-Based Collaborative Filtering
+![User CF](https://latex.codecogs.com/png.image?\dpi{150}\fn_phv\color{Black}\hat{R}_{u,i}=\frac{\sum_{v\in%20similar(u)}sim(u,v)\cdot%20R_{v,i}}{\sum_{v\in%20similar(u)}|sim(u,v)|})
+
+### Item-Based Collaborative Filtering
+![Item CF](https://latex.codecogs.com/png.image?\dpi{150}\fn_phv\color{Black}\hat{R}_{u,i}=\frac{\sum_{j\in%20similar(i)}sim(i,j)\cdot%20R_{u,j}}{\sum_{j\in%20similar(i)}|sim(i,j)|})
+
+**Similarity: Cosine Similarity**  
+![Cosine](https://latex.codecogs.com/png.image?\dpi{150}\fn_phv\color{Black}sim(A,B)=\frac{A\cdot%20B}{||A||\cdot||B||})
+>>>>>>> 43a425c8bdab57225ea74dc3266eaf80c778c512
 
 
 ***
